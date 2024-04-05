@@ -1,0 +1,44 @@
+{
+  "name": "web-phim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.1",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/react-paypal-js": "^8.1.4",
+    "antd": "^5.14.2",
+    "bcrypt": "^5.1.1",
+    "devtools-detect": "^4.0.1",
+    "embla-carousel-autoplay": "^8.0.0",
+    "embla-carousel-react": "^8.0.0",
+    "he": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mobile-detect": "^1.4.5",
+    "next": "14.1.0",
+    "next-auth": "^5.0.0-beta.15",
+    "next-themes": "^0.2.1",
+    "nextjs-toploader": "^1.6.6",
+    "nodemailer": "^6.9.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-multi-carousel": "^2.8.4",
+    "serverless-mysql": "^1.5.5",
+    "textflow.js": "^0.1.4",
+    "twilio": "^5.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "encoding": "^0.1.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
