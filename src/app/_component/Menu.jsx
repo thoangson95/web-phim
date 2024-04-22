@@ -9,7 +9,7 @@ const Menu = async () => {
             <li className="flex-1">
                 <LinkMenu href="/" title="Trang chủ" />
             </li>
-            {categorys &&
+            {categorys?.length &&
                 categorys.map((item, index) => {
                     return (
                         <li key={index} className="flex-1">
